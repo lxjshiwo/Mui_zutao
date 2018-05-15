@@ -1,0 +1,30 @@
+{
+  "home_sub.html": {
+    "href": "home_sub.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "imgs/lunbo.jpg",
+      "imgs/computer.PNG"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/home.css",
+      "imgs/home_page.png",
+      "imgs/home_logo.png",
+      "imgs/rent.png",
+      "imgs/cart.png",
+      "imgs/my.png"
+    ],
+    "refer": [
+      "home_sub.html"
+    ],
+    "priority": 0
+  }
+}

@@ -1,0 +1,607 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0 user-scalable=yes">
+	    <meta name="viewport" content="target-densitydpi=device-dpi, width=750px, user-scalable=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+		<title></title>
+		
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/search_result/search_result.css" rel="stylesheet"/>
+	</head>
+	<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+	</script>
+
+	<body>
+	<!--侧滑菜单容器-->
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+			<!--菜单部分-->
+			<aside id="offCanvasSide" class="mui-off-canvas-right" style="background: white;">
+				<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="mui-col-xs-12 mui-col-sm-12 mui-row" style="padding-bottom: 2%;position:relative;">
+							<div class="mui-col-xs-1 mui-col-sm-1"></div>
+							<div class="mui-col-xs-2 mui-col-sm-2" style="padding-top:2%;">
+								<h3 style="color: grey;">筛选</h3>
+							</div>
+							<div class="mui-col-xs-12 mui-col-sm-12 block" style="position:absolute;background: #000000;opacity: 0.1;height:50px;">
+							</div>
+						</div>
+						<div class="content">
+							<div class="mui-col-xs-12 mui-col-sm-12 mui-row">
+								<div class="mui-col-xs-1 mui-col-sm-1"></div>
+								<div class="mui-col-xs-2 mui-col-sm-2" >
+								<h3>品类</h3>
+								</div>
+								<div class="mui-col-xs-12 mui-col-sm-12 mui-row">
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">电脑</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">手机</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">笔记本</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">电脑</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">手机</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">笔记本</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							<div class="mui-row" style="margin-top:5%;margin-bottom: 5%;">
+								<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+							</div>
+							
+							<div class="mui-col-xs-12 mui-col-sm-12 mui-row">
+								<div class="mui-col-xs-1 mui-col-sm-1"></div>
+								<div class="mui-col-xs-2 mui-col-sm-2" >
+								<h3>品类</h3>
+								</div>
+								<div class="mui-col-xs-12 mui-col-sm-12 mui-row">
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">电脑</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">手机</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">笔记本</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">电脑</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">手机</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									<div class="mui-col-xs-4 mui-col-sm-4" style="padding-left:5%;position:relative;padding-top:2%;">
+										<h3 style="position:absolute;padding-left:20%;padding-top:10%;">笔记本</h3>
+										<img src="imgs/search_result/button-back.jpg" style="height:60px;">
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							<div class="mui-row" style="margin-top:5%;margin-bottom: 5%;">
+								<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+							</div>
+
+							<nav class="block" style="margin-top:700px;">
+							    <div class="mui-col-xs-12 mui-col-sm-12 mui-row">
+							    	<div class="mui-col-xs-2 mui-col-sm-2">
+							    	</div>
+							    	<div class="mui-col-xs-7 mui-col-sm-7" style="position: relative;">
+							    		<img  src="imgs/search_result/reset.jpg" style="position:absolute;"/> 
+							    		<img src="imgs/search_result/confirm.jpg" width="width:5%;"style="margin-left:8%;"/>
+							    	</div>
+							    </div>
+							</nav>
+						</div>
+						
+				</div>
+			</aside>
+			<div class="mui-inner-wrap">
+				<header class="mui-bar mui-bar-nav  back-color" style="height:90px;border:0px;width:100%;background: url(imgs/search_result/headback.png);">
+		<div class="mui-row " >
+			<div class="mui-col-sm-1 mui-col-xs-1"> 
+				<img class="" style="margin-left:25%;margin-top:20%;height:60px;"src="imgs/backward.png">
+			</div>
+			<div class="mui-col-sm-8 mui-col-xs-8 " style="position:relative;">
+				<img class="" style="position:absolute;width:120%;height:60px;margin-top:3%;"src="imgs/searchbox.png" />
+				<img style="position:absolute;margin-left:6%;margin-top:5%;float:left;width:8%;"src="imgs/search_result/search_logo.jpg" >
+				<input style="border:0px;position:absolute;float:left;margin-left:15%;margin-top:4%;height:50px;"class="mui-input" placeholder="联想电脑" />
+			</div>
+		</div>
+		</header>
+				<div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper" >
+					<div class="mui-scroll" style="margin-top:40px;">
+						<div class="mui-content-padded" style="width:100%;margin-left:-1%;" >
+							<div class="mui-row" style="background: white;height: 55px;padding-top:1%;">
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row " >
+					<div class="mui-col-xs-4 mui-col-sm-4 ">
+					</div>
+					<div class="mui-col-xs-8 mui-col-sm-8 mui-row " style="padding-top:3%;">
+						<div class="mui-col-xs-9 " >
+							<p style="font-size: 28px;color:red;">综合排序</p>
+						</div>
+						<div class="mui-col-xs-3 mui-col-sm-3 ">
+							<img src="imgs/search_result/turn_triangle.png" />
+							
+						</div>
+					</div>
+				</div>
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 ">
+						</div>
+						<div class="mui-col-xs-8 mui-col-sm-8 mui-row " style="padding-top:3%;">
+							<div class="mui-col-xs-9 " >
+								<p style="font-size: 28px;color:darkgray;">上架时间</p>
+							</div>
+							<div class="mui-col-xs-2 mui-col-sm-2">
+							
+							</div>
+							<div class="mui-col-xs-1 mui-col-sm-1">
+							<hr style="height:75px;width:1px;border-top:0px solid #555555;margin-top:-25px;" />
+							</div>
+						</div>
+					</div>
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row " >
+					<div class="mui-col-xs-4 mui-col-sm-4 "></div>
+					<div class="mui-col-xs-6 mui-col-sm-6 mui-row " style="padding-top:3%;">
+						<div class="mui-col-xs-7 mui-col-sm-7" >
+							<a id="offCanvasBtn" href="#offCanvasSide" class=" mui-pull-right">
+							<p style="font-size: 28px;color:darkgray;">筛选</p>
+							</a>
+						</div>
+						<div class="mui-col-xs-3 mui-col-sm-3 ">
+							<img src="imgs/search_result/filter_logo.png" />
+						</div>
+					</div>
+				</div>
+				<div class="mui-col-xs-12 mui-col-sm-12 " style="margin-top:-15px;">
+					<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+				</div>
+			</div>
+			<ul class="mui-table-view">
+			        <li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+
+			        
+		    </ul>
+						</div>
+
+						
+
+					</div>
+				</div>
+				<!-- off-canvas backdrop -->
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<!--
+        
+        
+		<header class="mui-bar mui-bar-nav  back-color" style="height:90px;border:0px;width:100%;background: url(imgs/search_result/headback.png);">
+		<div class="mui-row " >
+			<div class="mui-col-sm-1 mui-col-xs-1"> 
+				<img class="" style="margin-left:25%;margin-top:20%;height:60px;"src="imgs/backward.png">
+			</div>
+			<div class="mui-col-sm-8 mui-col-xs-8 " style="position:relative;">
+				<img class="" style="position:absolute;width:120%;height:60px;margin-top:3%;"src="imgs/searchbox.png" />
+				<img style="position:absolute;margin-left:6%;margin-top:5%;float:left;width:8%;"src="imgs/search_result/search_logo.jpg" >
+				<input style="border:0px;position:absolute;float:left;margin-left:15%;margin-top:4%;height:50px;"class="mui-input" placeholder="联想电脑" />
+			</div>
+		</div>
+		</header>
+		<div class="mui-content " style="margin-top:90px;padding-top:3%;background: white;width:100%;">
+			<div class="mui-row" style="background: white;height: 55px;">
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row " >
+					<div class="mui-col-xs-4 mui-col-sm-4 ">
+					</div>
+					<div class="mui-col-xs-8 mui-col-sm-8 mui-row " style="padding-top:3%;">
+						<div class="mui-col-xs-9 " >
+							<p style="font-size: 28px;color:red;">综合排序</p>
+						</div>
+						<div class="mui-col-xs-3 mui-col-sm-3 ">
+							<img src="imgs/search_result/turn_triangle.png" />
+							
+						</div>
+					</div>
+				</div>
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 ">
+						</div>
+						<div class="mui-col-xs-8 mui-col-sm-8 mui-row " style="padding-top:3%;">
+							<div class="mui-col-xs-9 " >
+								<p style="font-size: 28px;color:darkgray;">上架时间</p>
+							</div>
+							<div class="mui-col-xs-2 mui-col-sm-2">
+							
+							</div>
+							<div class="mui-col-xs-1 mui-col-sm-1">
+							<hr style="height:75px;width:1px;border-top:0px solid #555555;margin-top:-25px;" />
+							</div>
+						</div>
+					</div>
+				<div class="mui-col-xs-4 mui-col-sm-4 mui-row " >
+					<div class="mui-col-xs-4 mui-col-sm-4 "></div>
+					<div class="mui-col-xs-6 mui-col-sm-6 mui-row " style="padding-top:3%;">
+						<div class="mui-col-xs-7 mui-col-sm-7" >
+							<p style="font-size: 28px;color:darkgray;">筛选</p>
+						</div>
+						<div class="mui-col-xs-3 mui-col-sm-3 ">
+							<img src="imgs/search_result/filter_logo.png" />
+						</div>
+					</div>
+				</div>
+				<div class="mui-col-xs-12 mui-col-sm-12 " style="margin-top:-15px;">
+					<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+				</div>
+			</div>
+			<ul class="mui-table-view">
+			        <li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+<li class="mui-table-view-cell">
+			        	<div class="mui-row ">
+							<div class="mui-col-sm-5 mui-col-xs-5 ">
+								<img src="imgs/search_result/computer.png" style="width:95%;padding-left:2%;"/>
+							</div>
+							<div class="mui-col-sm-7 mui-col-xs-7 mui-row">
+								<div class="mui-col-sm-12 mui-col-xs-12" style="padding-left:5%;">
+									<h2>联想 320-15轻薄便携商务游戏15.6英寸银色</h2>
+								</div>	
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:18%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">京东直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">5000元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:5%;">
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">淘宝直购价:</p>
+									</div>
+									<div class="mui-col-xs-4 ">
+									<p style="font-size: 22px;">4900元</p>
+									</div>
+								</div>
+								<div class="mui-col-sm-12 mui-col-xs-12 mui-row" style="padding-left:8%;padding-top:6%;">
+									<div class="mui-col-xs-5 ">
+									<p style="font-size: 24px;color: red;">￥500元/天</p>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			        </li>
+
+			        
+		    </ul>
+
+		</div>	
+		
+	-->	
+	</body>
+	<script>
+		mui('#offCanvasSideScroll').scroll();  
+        mui('#offCanvasContentScroll').scroll();  
+	</script>
+
+</html>

@@ -1,0 +1,22 @@
+body{
+	/*background: url(../../imgs/upload_goods/upload.jpg)no-repeat;*/
+	/*background:url(../../imgs/upload_detail/1012108.jpg)no-repeat;*/
+	/*background:url(../../imgs/aftersales/background.jpg)no-repeat;*/
+	height: 100%;
+	width:100%;
+	/*overflow: hidden;*/
+}
+.trans{
+	opacity: 0.9;
+}
+
+.block{
+	border: 1px solid red;
+	
+}
+
+.back-color
+{
+	background: orange;
+	
+}

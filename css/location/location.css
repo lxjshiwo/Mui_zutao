@@ -1,0 +1,20 @@
+body{
+	/*background:url(../../imgs/location/location.jpg)no-repeat;*/
+	height: 100%;
+	width:100%;
+	/*overflow: hidden;*/
+}
+.trans{
+	opacity: 0.9;
+}
+
+.block{
+	border: 1px solid red;
+	
+}
+
+.back-color
+{
+	background: orange;
+	
+}
